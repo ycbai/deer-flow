@@ -25,6 +25,7 @@ class RAGProvider(enum.Enum):
     DIFY = "dify"
     RAGFLOW = "ragflow"
     VIKINGDB_KNOWLEDGE_BASE = "vikingdb_knowledge_base"
+    MILVUS = "milvus"
 
 
 SELECTED_RAG_PROVIDER = os.getenv("RAG_PROVIDER")
