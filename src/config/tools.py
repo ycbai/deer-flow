@@ -25,6 +25,7 @@ class RAGProvider(enum.Enum):
     DIFY = "dify"
     RAGFLOW = "ragflow"
     VIKINGDB_KNOWLEDGE_BASE = "vikingdb_knowledge_base"
+    MOI = "moi"
     MILVUS = "milvus"
 
 
